@@ -1,4 +1,4 @@
 # template-api
 Template API to use all over github repositories
 
-Using Typescript, Routing Controller, TypeORM, Class-Validator, JWT, BCRYPT
+Using Typescript, Express, Routing Controllers, TypeORM, Class-Validator, JWT, BCRYPT
