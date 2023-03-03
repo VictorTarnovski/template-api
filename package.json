@@ -25,22 +25,25 @@
     "sqlite3": "^5.1.4",
     "typeorm": "^0.3.12"
   },
-  "name": "routing-finances",
+  "name": "template-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src/index.ts"
+    "dev": "nodemon ./src/index.ts",
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VictorTarnovski/routing-finances.git"
+    "url": "git+https://github.com/VictorTarnovski/template-api.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VictorTarnovski/routing-finances/issues"
+    "url": "https://github.com/VictorTarnovski/template-api/issues"
   },
-  "homepage": "https://github.com/VictorTarnovski/routing-finances#readme",
-  "description": ""
+  "homepage": "https://github.com/VictorTarnovski/template-api#readme",
+  "description": "",
+  "bin": {
+    "template": "./dist/index.js"
+}
 }
